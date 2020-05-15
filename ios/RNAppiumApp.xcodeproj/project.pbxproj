@@ -17,6 +17,7 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* RNAppiumAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNAppiumAppTests.m */; };
 		3C55FD8533FDED28F280DC5A /* libPods-RNAppiumApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3AF0B7B0CE95528E60EF716 /* libPods-RNAppiumApp-tvOSTests.a */; };
+		6A0573C1246F13C500ACFA87 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A0573C0246F13C500ACFA87 /* AppCenter-Config.plist */; };
 		A6ED572F392857C2CEB6076A /* libPods-RNAppiumApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F63CE25E7A9CDFC6897A88AE /* libPods-RNAppiumApp.a */; };
 		AE4A7F855256A351BC250495 /* libPods-RNAppiumApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8F4901248A6CECCCF37197 /* libPods-RNAppiumApp-tvOS.a */; };
 		F41E5B678BA2C640D38B7D03 /* libPods-RNAppiumAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F8D0CE76BDD29771C55BF1 /* libPods-RNAppiumAppTests.a */; };
@@ -59,6 +60,7 @@
 		3F8F4901248A6CECCCF37197 /* libPods-RNAppiumApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNAppiumApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C5EA9590E219D0A54C9A660 /* Pods-RNAppiumApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAppiumApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-RNAppiumApp-tvOSTests/Pods-RNAppiumApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		68F8D0CE76BDD29771C55BF1 /* libPods-RNAppiumAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNAppiumAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A0573C0246F13C500ACFA87 /* AppCenter-Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
 		822A420EE74B0810A3721BA9 /* Pods-RNAppiumApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAppiumApp.release.xcconfig"; path = "Target Support Files/Pods-RNAppiumApp/Pods-RNAppiumApp.release.xcconfig"; sourceTree = "<group>"; };
 		99D3632113212FEA218EC05E /* Pods-RNAppiumApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAppiumApp.debug.xcconfig"; path = "Target Support Files/Pods-RNAppiumApp/Pods-RNAppiumApp.debug.xcconfig"; sourceTree = "<group>"; };
 		A3AF0B7B0CE95528E60EF716 /* libPods-RNAppiumApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNAppiumApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,6 +161,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				6A0573C0246F13C500ACFA87 /* AppCenter-Config.plist */,
 				13B07FAE1A68108700A75B9A /* RNAppiumApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* RNAppiumAppTests */,
@@ -194,7 +197,6 @@
 				08B255508E3174CAC7E4A376 /* Pods-RNAppiumAppTests.debug.xcconfig */,
 				BD17CCB0FBC26A7FC4C8F0A1 /* Pods-RNAppiumAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -308,6 +310,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -338,6 +341,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				6A0573C1246F13C500ACFA87 /* AppCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
