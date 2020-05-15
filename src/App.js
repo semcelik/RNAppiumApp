@@ -1,15 +1,21 @@
 import React from 'react';
-import { StyleSheet, SafeAreaView, View, Text } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+
+import ROUTES from './routes';
+
+const Stack = createStackNavigator();
 
 function App() {
   return (
-    <SafeAreaView>
-      <View>
-      </View>
-    </SafeAreaView>
+    <NavigationContainer>
+      <Stack.Navigator>
+        {ROUTES.map(({ name, component: C }) => (
+          <Stack.Screen key={name} name={name} component={C} />
+        ))}
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({});
 
 export default App;
