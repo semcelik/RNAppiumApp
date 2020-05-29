@@ -4,7 +4,11 @@ import { View, Button, StyleSheet } from 'react-native';
 function HomeScreen({ navigation: { navigate } }) {
   return (
     <View style={styles.container}>
-      <Button title="FirstScreen" onPress={() => navigate('FirstScreen')} />
+      <Button
+        accessibilityLabel="firstButton"
+        title="FirstScreen"
+        onPress={() => navigate('FirstScreen')}
+      />
       <Button title="SecondScreen" onPress={() => navigate('SecondScreen')} />
     </View>
   );
