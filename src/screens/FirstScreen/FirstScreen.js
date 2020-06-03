@@ -4,7 +4,7 @@ import { View, Text, StyleSheet } from 'react-native';
 function FirstScreen() {
   return (
     <View style={styles.container}>
-      <Text>FirstScreen</Text>
+      <Text>FirstScreexn</Text>
     </View>
   );
 }
