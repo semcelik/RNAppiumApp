@@ -4,7 +4,11 @@ import { View, StyleSheet, Button } from 'react-native';
 function ThirdScreen({ navigation: { navigate } }) {
   return (
     <View style={styles.container}>
-      <Button title="Return Home" onPress={() => navigate('HomeScreen')} />
+      <Button
+        accessibilityLabel="homeButton"
+        title="Return Home"
+        onPress={() => navigate('HomeScreen')}
+      />
     </View>
   );
 }

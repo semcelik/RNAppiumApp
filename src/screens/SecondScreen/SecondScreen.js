@@ -4,7 +4,11 @@ import { View, StyleSheet, Button } from 'react-native';
 function SecondScreen({ navigation: { navigate } }) {
   return (
     <View style={styles.container}>
-      <Button title="ThirdScreen" onPress={() => navigate('ThirdScreen')} />
+      <Button
+        accessibilityLabel="thirdButton"
+        title="ThirdScreen"
+        onPress={() => navigate('ThirdScreen')}
+      />
     </View>
   );
 }

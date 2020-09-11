@@ -9,7 +9,11 @@ function HomeScreen({ navigation: { navigate } }) {
         title="FirstScreen"
         onPress={() => navigate('FirstScreen')}
       />
-      <Button title="SecondScreen" onPress={() => navigate('SecondScreen')} />
+      <Button
+        accessibilityLabel="secondButton"
+        title="SecondScreen"
+        onPress={() => navigate('SecondScreen')}
+      />
     </View>
   );
 }
