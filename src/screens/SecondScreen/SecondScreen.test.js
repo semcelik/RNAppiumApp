@@ -15,7 +15,7 @@ describe('SecondScreen', () => {
     const { getByA11yLabel } = render(
       <SecondScreen navigation={navigationProps} />,
     );
-    const thirdScreenButton = getByA11yLabel('thirdButton');
+    const thirdScreenButton = getByA11yLabel('thirdButtonx');
 
     expect(navigationProps.navigate).toBeCalledTimes(0);
 
