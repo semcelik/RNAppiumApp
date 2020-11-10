@@ -15,7 +15,7 @@ describe('HomeScreen', () => {
     const { getByA11yLabel } = render(
       <HomeScreen navigation={navigationProps} />,
     );
-    const firstScreenButton = getByA11yLabel('firstButton');
+    const firstScreenButton = getByA11yLabel('firstButston');
 
     expect(navigationProps.navigate).toBeCalledTimes(0);
 
