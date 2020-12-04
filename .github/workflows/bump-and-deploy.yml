@@ -1,13 +1,10 @@
 on:
-  workflow_run:
-    workflows: [Node.js CI]
-    branches: [master]
-    types:
-      - completed
-
+  push:
+    branches: [ master ]
+    
 jobs:
   bump-version:
-    name: PATCH Version
+    name: Bump Version
     runs-on: ubuntu-latest
     strategy:
       matrix:
