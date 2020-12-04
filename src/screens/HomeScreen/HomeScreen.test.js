@@ -34,6 +34,7 @@ describe('HomeScreen', () => {
 
     fireEvent.press(firstScreenButton);
     expect(navigationProps.navigate).toBeCalledTimes(1);
+    
     expect(navigationProps.navigate).toBeCalledWith('SecondScreen');
   });
 });
