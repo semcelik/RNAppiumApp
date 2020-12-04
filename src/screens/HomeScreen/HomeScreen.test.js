@@ -30,6 +30,8 @@ describe('HomeScreen', () => {
     );
     const firstScreenButton = getByA11yLabel('secondButton');
 
+    
+    
     expect(navigationProps.navigate).toBeCalledTimes(0);
 
     
