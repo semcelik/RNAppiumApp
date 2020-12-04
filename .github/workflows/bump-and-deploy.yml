@@ -1,5 +1,3 @@
-name: Bump and Deploy
-
 on:
   workflow_run:
     workflows: [Node.js CI]
